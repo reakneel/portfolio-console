@@ -32,6 +32,12 @@ vercel --prod
 
 或在 [vercel.com](https://vercel.com) 导入 Git 仓库，框架选 Next.js，零配置部署。
 
+### 线上部署状态
+
+- 生产地址：<https://portfolio-console-eta.vercel.app>（2026-10-24 部署，状态 Ready）
+- 仓库：<https://github.com/reakneel/portfolio-console>
+- 说明：`*.vercel.app` 域名在部分网络环境（如中国大陆）可能无法直接访问，建议在 Vercel 项目设置中绑定自定义域名。
+
 ## 数据库（可选，适配 Vercel Postgres / Neon）
 
 1. Vercel 项目 → **Storage** → 创建 **Postgres**（Neon），自动注入 `POSTGRES_URL`
